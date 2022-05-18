@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web</title>  
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: rgb(168, 161, 161);
+            
+        }
+        /* *{border: 1px solid rgb(255, 102, 0);   
+        }*/
+        
+        .shadow{
+            box-shadow: rgb(235, 99, 224) 0px 2px 1px -1px;
+        }
+        .flex{
+            display: flex;
+        }
+        .white{
+            background-color: whitesmoke;
+        }
+        .flex1{
+            flex:1;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .border{
+            margin: 8px;
+        }
+        .rightborder{
+            margin-right: 8px;
+        }
+        .topborder{
+            margin-top: 8px;
+        }
+        .guard{
+            padding: 10px 20px;
+            border-bottom: 10px solid rgb(175, 153, 153);
+            font-size: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body class="flex">
+    <!--left selection-->
+    <div style="width: 200px; z-index: 2" class="white border">
+    <!--picture-->
+    <div style="padding: 9px; align-items: center; justify-content: center; border-bottom: 2px solid orange;" class="flex"><img src="C:\Users\Owner\Desktop\myweb\IMG_20190331_120610.jpg" alt="我们的头像" width="169" height="129"></div>
+<div style="align-items: center; justify-content: center; margin-top: 20px;" class="flex">my web</div>
+    <!--guard-->
+    <div style="flex1">
+        <div class="guard">list1</div>
+        <div class="guard">list2</div>
+        <div class="guard">list3</div>
+        <div class="guard">list4</div>
+        <div class="guard">list5</div>
+        <div class="guard">list6</div>
+        <a HREF="C:\Users\Owner\Desktop\myweb\index.html"><div class="guard">返回国画世界</div>
+        </a>
+    </div>
+    </div>
+    </div>
+    
+    <!--main-->
+    <div class="flex1 flex column">
+        <!--head-->
+        <div style="height: 60px; z-index: 1" class="white shadow"></div>
+        <!--content-->
+        <div style="overflow: auto;" class="flex1 flex">
+            <!--left content-->
+            <div style="flex: 3" class="flex column">
+            <!--data-->
+            <div class="flex">
+                <!--4 blocks-->
+                <div style="height: 100px" class="flex1 white topborder rightborder shadow"></div>
+                <div style="height: 100px" class="flex1 white topborder rightborder shadow"></div>
+                <div style="height: 100px" class="flex1 white topborder rightborder shadow"></div>
+                <div style="height: 100px" class="flex1 white topborder rightborder shadow"></div>
+            </div>
+            <!--excel-->
+            <div class="flex column">
+                <!--excel1-->
+                <div style="height: 160px" class="white topborder rightborder shadow"></div>
+                <div style="height: 160px" class="white topborder rightborder shadow"></div>
+                <div style="height: 160px" class="white topborder rightborder shadow"></div>
+                <div style="height: 160px" class="white topborder rightborder shadow"></div>
+                <div style="height: 160px" class="white topborder rightborder shadow"></div>
+                <div style="height: 160px" class="white topborder rightborder shadow"></div>
+            </div>
+            </div>
+            <!--right content-->
+            <div style="flex: 1" class="flex column topborder rightborder">
+            <!--note-->
+            <div style="height: 150px" class="white shadow"></div>
+            <!--info-->
+            <div style="height: 360px" class="white topborder shadow"></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
